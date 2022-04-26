@@ -1,0 +1,44 @@
+.home .iconfont {
+  font-size: 20px;
+}
+
+.home .am-tab-bar-bar {
+  position: fixed;
+  bottom: 0;
+}
+/* 
+.am-tab-bar-bar div:nth-child(1) {
+  background-image: url(../../assets/chuang.png);
+  height: 10px;
+} */
+
+#tabbar {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 8vh;
+  background-color: rgb(255, 255, 255);
+}
+#tabbar .tabbarItem {
+  width: 25vw;
+}
+#tabbar img {
+  margin-top: 0.4vh;
+  height: 8vh;
+  z-index: 100;
+}
+
+#tabbarShadow {
+  position: fixed;
+  bottom: 10vh;
+  height: 4vh;
+  width: 100%;
+  background: linear-gradient(to top, rgb(87, 16, 16), rgb(255, 255, 255));
+  z-index: 50;
+  opacity: 0.2;
+}
+#tabbarBlank {
+  height: 10vh;
+}

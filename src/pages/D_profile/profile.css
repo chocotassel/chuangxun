@@ -1,0 +1,150 @@
+#profileFix {
+    position: fixed;
+    width: 100vw;
+    height: 33vh;
+    border-bottom: 2px solid rgb(247, 247, 247);
+    background-color: #fff;
+    z-index: 100;
+}
+#profileBlank {
+    height: 34vh;
+}
+#mask {
+    display: inline-block;
+    height: 50px;
+    width: 130px;
+}
+#maskIcon {
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+}
+#maskIcon img {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+
+#profile_top_sleeping,#profile_top_setting {
+    position: absolute;
+    height: 26px;
+    top: 12px;
+}
+#profile_top_sleeping {
+    right: 60px;
+}
+#profile_top_setting {
+    right: 20px;
+}
+
+
+.overlayContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin-top: -75px;
+    margin-left: -75px;
+    background: white;
+    border-radius: 16px;
+  }
+
+
+
+#profileAvatar {
+    position: relative;
+    height: 10vh;
+}
+#profileAvatar>div:nth-child(1){
+    position: absolute;
+    left: 20px;
+}
+#profileID {
+    position: absolute;
+    left: 100px;
+    top: 8px;
+}
+#profileID div:nth-child(1) {
+    font-size: 18px;
+    font-weight: 700;
+}
+#profileID div:nth-child(2) {
+    color: rgb(156, 156, 156);
+}
+
+#pRightArrow {
+    position: absolute;
+    right: 10vw;
+    top: 3vh;
+}
+
+
+#profile_card1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    text-align: center;
+}
+#profile_card1 div:nth-child(1) {
+    height: 30px;
+    font-size: 20px;
+}
+#profile_card1 div:nth-child(2) {
+    font-size: 12px;
+}
+
+
+
+#profile_card2 {
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+}
+#profile_card2>div {
+    position: relative;
+    line-height: 46px;
+    height: 50px;
+    width: 36vw;
+    border: 2px solid rgb(233, 233, 233);
+    border-radius: 10px;
+}
+#profile_card2>div>div {
+    position: absolute;
+    left: 10px;
+    width: 80px;
+    font-size: 15px;
+}
+#profile_card2 img {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    height: 30px;
+    align-items: center;
+}
+
+
+#profile .adm-grid-item {
+    height: 60px;
+}
+#profile .adm-grid-item img {
+    height: 30px;
+}
+
+
+#profile_card3 div div div div div {
+    position: absolute;
+    top: 18px;
+    left: 50px;
+    font-size: 15px;
+    /* background-color: rgb(143, 102, 102); */
+}
+#profile_card3 img {
+    /* position: absolute; */
+    height: 30px;
+}

@@ -1,0 +1,33 @@
+#e2 .adm-nav-bar {
+    /* background-color: rgb(60,60,60); */
+    /* color: white; */
+    font-family: 'KaiTi';
+    font-weight: 700 ;
+}
+#e2 .adm-nav-bar-title{
+    font-size: 26px;
+}
+
+
+#e2_ruler {
+    padding: 30px 20px;
+    height: 12vh;
+    color: rgb(119, 119, 119);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.e2_voteBoxItem {
+    float: left;
+    width: 50vw;
+    height: 82vw;
+}
+.e2_voteBoxItem img {
+    margin: 5vw 5vw 0vw;
+    width: 40vw;
+    height: 53.2vw;
+}
+.e2_voteBoxItem .voteButton {
+    margin: 10% 15%;
+    width: 70%;
+}

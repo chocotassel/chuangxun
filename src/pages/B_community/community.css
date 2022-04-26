@@ -1,0 +1,60 @@
+#figure {
+    height: 100%;
+}
+#figure img {
+    width: 100%;
+}
+#sidebar {
+    position: absolute;
+    right: 1%;
+    z-index: 100;
+}
+.sidebarItem{
+    flex-direction: column;
+    margin: 10px auto;
+}
+.sidebarItem img {
+    margin: 0 10px;
+}
+.sidebarItem div {
+    width: 100%;
+    border-radius: 6px;
+    background-color: rgb(192, 175, 175);
+    font-size: 15px;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.sidebarHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60vh;
+}
+.sidebarStyle {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 60vh;
+}
+#sidebarHome {
+    display: flex;
+}
+#sidebarDress1 {
+    display: none;
+}
+#sidebarDress2 {
+    display: none;
+}
+#sidebarDress3 {
+    display: none;
+}
+#sidebarDress4 {
+    display: none;
+}
+#sidebarDress5 {
+    display: none;
+}
+#sidebarDress6 {
+    display: none;
+}

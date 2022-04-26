@@ -1,0 +1,70 @@
+#c_navbar {
+    text-align: center;
+
+}
+
+
+#msg {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+}
+.msgbox {
+    position: relative;
+    height: 60px;
+    text-align: center;
+}
+.msgboxBgc {
+    height:50px;
+    width: 50px;
+    background-color: rgb(235, 149, 153);
+    border-radius: 20px;
+}
+.msgbox>div>img {
+    margin-top: 10px;
+    height: 30px;
+}
+.msgbox div:nth-child(2) {
+    display: inline-block;
+    line-height: 40px;
+    font-size: 17px;
+}
+.msgbox>img {
+    height: 24px;
+    opacity: 0.4;
+}
+
+
+
+#chatList {
+    width: 100%;
+    background-color: #fff;
+}
+.chatBox{
+    position: relative;
+    display: flex;
+    height: 70px;
+    /* border: 1px solid black; */
+}
+.chatBox .adm-avatar{
+    margin: 8px;
+}
+.chatBoxRight{
+    margin: 12px;
+    height: 36px;
+}
+.chatBoxRight>div:nth-child(1){
+    font: 700 14px/18px '楷体',arial,sans-serif;
+}
+.chatBoxRight>div:nth-child(2){
+    color: rgb(173, 173, 173);
+}
+.chatBoxRight>div:nth-child(3){
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    top: 12px;
+    
+    color: rgb(175, 175, 175);
+}

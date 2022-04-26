@@ -1,0 +1,45 @@
+#service_vip_headportrait {
+    position: relative;
+    height: 10vh;
+}
+#service_vip_headportrait div {
+    display: inline-block;
+}
+#service_vip_headportrait div:nth-child(1) {
+    position: absolute;
+    top: 2vh;
+    left: 3vh;
+    height: 6vh;
+    width: 6vh;
+}
+#service_vip_headportrait div:nth-child(2) {
+    position: absolute;
+    top: 3vh;
+    left: 10vh;
+    font-size: 24px;
+    font-family: 'Verdana';
+}
+
+
+#service_vip .adm-card {
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 0%; */
+}
+
+
+#service_vip_card2 {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    /* background-color: rgb(161, 62, 62); */
+    border-radius: 10px;
+}
+
+
+
+#service_vip_card3 {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin-left: 10vw;
+}

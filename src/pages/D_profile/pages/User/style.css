@@ -1,0 +1,11 @@
+.my-list .spe .am-list-extra {
+    flex-basis: initial;
+}
+.am-navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+#blank {
+    height: 100px;
+}
